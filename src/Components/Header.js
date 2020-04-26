@@ -1,17 +1,16 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 export default () => (
   <header>
     <ul>
       <li>
-        <Link to="/">Home</Link>
+        <a href="/">Movies</a>
       </li>
       <li>
-        <Link to="/tv">TV</Link>
+        <a href="/tv">TV</a>
       </li>
       <li>
-        <Link to="/search">Search</Link>
+        <a href="/search">Search</a>
       </li>
     </ul>
   </header>
